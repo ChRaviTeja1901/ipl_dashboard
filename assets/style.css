@@ -1,0 +1,295 @@
+/* Team color backgrounds for comparison tables */
+.team-bg-Sunrisers-Hyderabad {
+  background-color: #ff6f00 !important;
+}
+.team-bg-Rajasthan-Royals {
+  background-color: #ea1c81 !important;
+}
+.team-bg-Gujarat-Titans {
+  background-color: #1e1e1e !important;
+}
+.team-bg-Mumbai-Indians {
+  background-color: #004ba0 !important;
+}
+.team-bg-Chennai-Super-Kings {
+  background-color: #ffcb05 !important;
+}
+.team-bg-Punjab-Kings {
+  background-color: #e52e1a !important;
+}
+.team-bg-Kolkata-Knight-Riders {
+  background-color: #3b0a55 !important;
+}
+.team-bg-Lucknow-Super-Giants {
+  background-color: #5dc2e8 !important;
+}
+.team-bg-Delhi-Capitals {
+  background-color: #17449b !important;
+}
+.team-bg-Royal-Challengers-Bengaluru {
+  background-color: #b50303 !important;
+}
+/* Dash DataTable custom styles for team comparison tables */
+.team-table .dash-table-container .dash-spreadsheet-container {
+  background-color: #1e1e2f;
+  color: white;
+  font-size: 14px;
+}
+.team-table .dash-header {
+  background-color: #1e1e2f !important;
+  color: white !important;
+}
+.team-table .dash-cell {
+  background-color: #1e1e2f !important;
+  color: white !important;
+  font-size: 14px !important;
+}
+/* Base styles */
+body {
+  background-color: #0f1117;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+/* Headings and links */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #ffffff;
+}
+
+a {
+  color: #00d6d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* DataTable styling (if used) */
+.dash-table-container .dash-spreadsheet-container {
+  background-color: #1e1e2f;
+  color: white;
+}
+
+/* Header row for title and tabs */
+.header-tabs-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+/* Tabs Container */
+.main-tabs {
+  border: none !important;
+  box-shadow: none !important;
+  width: 100%;
+  margin-right: 20px;
+  background-color: transparent;
+}
+
+/* Individual tab styles (unselected) */
+.main-tabs .tab {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-weight: normal;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Selected tab */
+.main-tabs .tab--selected {
+  color: #00d6d6 !important;
+  font-weight: bold;
+  background-color: transparent !important;
+}
+
+/* On hover */
+.main-tabs .tab:hover {
+  color: #00d6d6;
+  cursor: pointer;
+}
+
+/* KPI Cards Row */
+.kpi-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* KPI Card styling */
+.kpi-card {
+  background-color: #1e1e2f;
+  padding: 20px;
+  border-radius: 12px;
+  width: 180px;
+  box-shadow: 0 0 10px rgba(0, 214, 214, 0.15);
+  border: 1px solid #1e1e2f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* KPI Title and Value */
+.kpi-title {
+  font-size: 16px;
+  color: #cfd8dc;
+  margin-bottom: 5px;
+}
+
+.kpi-value {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00d6d6;
+  text-align: center;
+}
+
+/* Pie chart, bar chart containers (optional layout help) */
+.chart-container {
+  background-color: #1e1e2f;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 0 8px rgba(0, 214, 214, 0.1);
+}
+
+/* Row containing two charts */
+.chart-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 20px;
+  width: 97.5%;
+}
+
+/* Half width for two-graph row */
+.half-chart {
+  flex: 1 1 45%;
+  background-color: #1e1e2f;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 0 8px rgba(0, 214, 214, 0.1);
+}
+
+/* Third width for three-graph row */
+.third-chart {
+  flex: 1 1 30%;
+  background-color: #1e1e2f;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 0 8px rgba(0, 214, 214, 0.1);
+  min-width: 250px;
+}
+
+/* Chart style for background + color fix */
+.chart-style {
+  background-color: #1e1e2f;
+}
+
+.full-chart {
+  flex: 1 1 100%;
+  background-color: #1e1e2f;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 0 8px rgba(0, 214, 214, 0.1);
+  margin: 20px;
+}
+
+/* Style the dropdown control box */
+.Select-control {
+  background-color: #0f1117 !important;
+  color: white !important;
+  border: 1px solid #444 !important;
+}
+
+/* Style the selected value text */
+.Select-value-label {
+  color: white !important;
+}
+
+/* Style the dropdown menu */
+.VirtualizedSelectOption {
+  background-color: #0f1117 !important;
+  color: white !important;
+}
+
+/* Style highlighted/hovered option */
+.VirtualizedSelectFocusedOption {
+  background-color: #1c1f26 !important;
+  color: white !important;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap; /* Wraps on smaller screens */
+  margin: 20px 0;
+}
+
+.season-filter,
+.player1-filter,
+.player2-filter,
+.team1-filter,
+.team2-filter {
+  flex-grow: 1;
+  flex-basis: 0; /* allows equal width */
+  min-width: 450px; /* ensures dropdowns don’t shrink too much */
+}
+
+.comparison-tables {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap; /* Wraps on smaller screens */
+  margin: 20px 18px;
+  width: 97.5%;
+}
+
+.team-table {
+  flex: 1;
+  min-width: 250px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #1c1c1c;
+  color: white;
+  border-radius: 15px;
+}
+
+/* Message shown when both teams are not selected in comparison tab */
+.compare-msg {
+  color: white;
+  background-color: #1c1c1c;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
